@@ -9,5 +9,7 @@ export class MessagesController {
   createMessage(@Body() body: any) {}
 
   @Get(':id')
-  getMessage(@Param('id') id: String) {}
+  getMessage(@Param('id') id: String) {
+    console.log(Controller);
+  }
 }
