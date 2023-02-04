@@ -1,0 +1,15 @@
+### Lest all messages
+GET http://localhost:3000/messages
+
+
+### Create a new msssage
+Post http://localhost:3000/messages
+content-type: application/json
+
+{
+    "content": "hi there"
+}
+
+
+### Get a particular message
+Get http://localhost:3000/messages/123123123
