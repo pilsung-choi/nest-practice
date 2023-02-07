@@ -7,9 +7,9 @@ Post http://localhost:3000/messages
 content-type: application/json
 
 {
-    "content": "sdfsdf"
+    "content": "message after add DI"
 }
 
 
 ### Get a particular message
-Get http://localhost:3000/messages/436
+Get http://localhost:3000/messages/456
