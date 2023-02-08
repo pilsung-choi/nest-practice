@@ -31,6 +31,8 @@ export class MessagesController {
       throw new NotFoundException('message not found');
     }
 
+    console.log('테스트');
+
     return message;
   }
 }
