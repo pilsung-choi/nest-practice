@@ -8,4 +8,3 @@ import { MessagesRepository } from './messages.repository';
   providers: [MessagesService, MessagesRepository],
 })
 export class MessagesModule {}
-// console.log('console', Module);
